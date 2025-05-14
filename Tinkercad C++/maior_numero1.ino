@@ -1,5 +1,9 @@
 // C++ code
 //
+<<<<<<< HEAD
+=======
+
+>>>>>>> 132bd56de4e66e14cbc28bb668f26883a636ffc5
 int num1;
 int num2;
 
@@ -21,10 +25,16 @@ void loop() {
   if (num1 > num2) {
     Serial.print("O maior numero e: ");
     Serial.println(num1);
+<<<<<<< HEAD
   } else {
     Serial.print("O maior numero e: ");
     Serial.println(num2);
   
+=======
+ 
+  } else {
+    Serial.println("Os dois numeros sao iguais.");
+>>>>>>> 132bd56de4e66e14cbc28bb668f26883a636ffc5
   }
 
   delay(3000);
